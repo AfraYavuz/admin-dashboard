@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../img/afra.png";
+import avatar from "@/img/avatar.png";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import {
   DropdownMenu,
@@ -24,8 +25,8 @@ const Navbar = () => {
         <DropdownMenu>
           <DropdownMenuTrigger className="focus:outline-none">
             <Avatar>
-              <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-              <AvatarFallback className="text-black">BT</AvatarFallback>
+              <AvatarImage src={avatar.src} alt="ay" width={60} height={60} />
+              <AvatarFallback className="text-black">AY</AvatarFallback>
             </Avatar>
           </DropdownMenuTrigger>
           <DropdownMenuContent>

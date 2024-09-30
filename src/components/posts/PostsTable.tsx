@@ -8,7 +8,7 @@ import {
   TableCaption,
 } from "@/components/ui/table";
 import Link from "next/link";
-import posts from "@/data/post";
+import posts from "@/data/posts";
 import { Post } from "@/types/posts";
 
 interface PostsTableProps {
